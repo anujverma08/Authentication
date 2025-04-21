@@ -23,7 +23,7 @@ app.use(
 
 app.use(cookieParser());
 
-app.post("/" ,  asyncHandler(async(req : Request, res : Response) => {
+app.get("/" ,  asyncHandler(async(req : Request, res : Response) => {
 
     res.status(HTTPSTATUS.OK).json({
         message: "Welcome to the API",
