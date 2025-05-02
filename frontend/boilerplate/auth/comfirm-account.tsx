@@ -29,7 +29,7 @@ export default function ComfirmAccount() {
             focus-visible:ring-2 text-primary hover:underline focus-visible:ring-primary"
             href="#"
           >
-            support@squeezy.com
+            support@auth.com
           </a>
           .
         </p>

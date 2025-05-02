@@ -50,7 +50,7 @@ export default function SignUp() {
             <Logo />
 
             <h1 className="text-xl tracking-[-0.16px] dark:text-[#fcfdffef] font-bold mb-1.5 mt-8 text-center sm:text-left">
-              Create a Squeezy account
+              Create a Auth account
             </h1>
             <p className="mb-6 text-center sm:text-left text-base dark:text-[#f1f7feb5] font-normal">
               Already have an account?{" "}
@@ -71,7 +71,7 @@ export default function SignUp() {
                           Name
                         </FormLabel>
                         <FormControl>
-                          <Input placeholder="Techwithemma" {...field} />
+                          <Input placeholder="demo" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -89,7 +89,7 @@ export default function SignUp() {
                         </FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="subscribeto@channel.com"
+                            placeholder="testdemo@gmail.com"
                             {...field}
                           />
                         </FormControl>
@@ -142,9 +142,9 @@ export default function SignUp() {
                 </div>
               </form>
             </Form>
-            <Button variant="outline" className="w-full h-[40px]">
+            {/* <Button variant="outline" className="w-full h-[40px]">
               Email magic link
-            </Button>
+            </Button> */}
             <p className="text-xs font-normal mt-4">
               By signing up, you agree to our{" "}
               <a className="text-primary hover:underline" href="#">

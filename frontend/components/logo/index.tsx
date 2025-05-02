@@ -18,7 +18,7 @@ const Logo = (props: { url?: string; size?: string; fontSize?: string }) => {
         style={{ width: size, height: size }}
       >
         <span className="font-bold text-gray-50" style={{ fontSize: fontSize }}>
-          S
+          A
         </span>
       </Link>
     </div>

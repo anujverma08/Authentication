@@ -42,7 +42,7 @@ export default function Login() {
         <Logo />
 
         <h1 className="text-xl tracking-[-0.16px] dark:text-[#fcfdffef] font-bold mb-1.5 mt-8 text-center sm:text-left">
-          Log in to Squeezy
+          Log in to Auth
         </h1>
         <p className="mb-8 text-center sm:text-left text-base dark:text-[#f1f7feb5] font-normal">
           Don't have an account?{" "}
@@ -63,7 +63,7 @@ export default function Login() {
                       Email
                     </FormLabel>
                     <FormControl>
-                      <Input placeholder="subscribeto@channel.com" {...field} />
+                      <Input placeholder="anujirverma@gmail.com" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -122,9 +122,9 @@ export default function Login() {
             </div>
           </form>
         </Form>
-        <Button variant="outline" className="w-full h-[40px]">
+        {/* <Button variant="outline" className="w-full h-[40px]">
           Email magic link
-        </Button>
+        </Button> */}
         <p className="text-xs dark:text-slate- font-normal mt-7">
           By signing in, you agree to our{" "}
           <a className="text-primary hover:underline" href="#">

@@ -50,7 +50,7 @@ const Sessions = () => {
           Sessions
         </h3>
         <p className="mb-6 max-w-xl text-sm text-[#0007149f] dark:text-gray-100 font-normal">
-          Sessions are the devices you are using or that have used your Squeezy
+          Sessions are the devices you are using or that have used your Auth
           These are the sessions where your account is currently logged in. You
           can log out of each session.
         </p>
@@ -63,7 +63,7 @@ const Sessions = () => {
                 Current active session
               </h5>
               <p className="mb-6 text-sm text-[#0007149f] dark:text-gray-100">
-                You’re logged into this Squeezy account on this device and are
+                You’re logged into this Auth account on this device and are
                 currently using it.
               </p>
             </div>
